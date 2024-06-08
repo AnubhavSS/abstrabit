@@ -10,13 +10,15 @@ export default function Home() {
    
 <>
 <Header/>
+<div className="w-full flex flex-col justify-center items-center h-full">
 <Charts/>
-<div className="flex flex-row flex-1">
+
+<div className="flex gap-5">
   <div >
 <Finance/>
 <Answers/>
 </div>
-<KYC/>
+<KYC/></div>
 </div>
 </>
   );

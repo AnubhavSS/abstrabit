@@ -7,7 +7,7 @@ import mahindra from "../../public/mahindra.png";
 const Finance = () => {
   return (
     <div className="ml-10 my-5">
-    <div className=" w-[65vw]  grid grid-cols-2  gap-4">
+    <div className=" w-[822px]  grid grid-cols-2  gap-4">
 
         {/* Utkarsh Finance */}
       <div className="w-[398px] h-[202px] border-4 border-white bg-[#F8F0FF] rounded-[5px] ">

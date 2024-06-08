@@ -12,10 +12,10 @@ const Charts = () => {
   ];
 
   return (
-    <div>
+    <div className='ml-20'>
 
 <h1 className='font-medium text-[24px] text-[#1A1B1E] my-5 mx-10'>Welcome, Johan Paul</h1>
-<div className="flex flex-row items-center">
+<div className="flex flex-row items-center w-[1366px]">
  
 <div className='w-[398px] h-[286px] bg-white border border-[#EBEBEB] rounded-[5px] my-5 mx-10'>
   <h1 className="font-bold text-[16px] text-[#1A1B1E] m-5">Your FD Portfolio</h1>
@@ -59,7 +59,7 @@ const Charts = () => {
 </div>
 
 {/* Timeline chart */}
-<div className="w-[822px] h-[286px] bg-white border border-[#EBEBEB]">
+<div className="w-[822px] h-[286px] bg-white border border-[#EBEBEB] -ml-3">
 <h1 className="font-bold text-[16px] text-[#1A1B1E] m-5">FD Maturity Timeline</h1>
 <Image src={timeline} alt='timeline' width={729} height={169} className='mx-auto'/>
 </div>

@@ -3,7 +3,7 @@ import forward from '../../public/forward.png'
 import backward from '../../public/backward.png'
 const Answers = () => {
   return (
-    <div className="ml-10 my-10 w-[65vw]">
+    <div className="ml-10 my-6 w-[822px]">
 
         {/* Get Answer text */}
       <div className="flex justify-between items-center ">
